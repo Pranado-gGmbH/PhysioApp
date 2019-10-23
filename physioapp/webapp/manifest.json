@@ -122,10 +122,10 @@
 				},
 				{
 					"name": "patientExercises",
-					"pattern": "pat/{patIdx}/prog/{patId}/mod/{progId}/exerc",
+					"pattern": "pat/{patIdx}/prog/{patId}/mod/{progId}/exerc/{modIdx}",
 					"target": [
-						"patientExercises",
 						"patientModules",
+						"patientExercises",
 						"patientsMasterList"
 					]
 				},
